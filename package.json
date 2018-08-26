@@ -1,0 +1,20 @@
+{
+  "name": "flatroyal",
+  "version": "1.0.0",
+  "description": "Im testing node multiplayer games",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "."
+  },
+  "keywords": [
+    "test",
+    "game",
+    "multiplayer"
+  ],
+  "author": "Benedikt Vilji Magnússon",
+  "license": "ISC"
+}
