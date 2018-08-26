@@ -1,4 +1,9 @@
-require('express');
-require('socket.io');
+const express = require('express');
+const app = express();
 
-console.log("server started");
+const path = require("path");
+
+app.use(express.static(path.join(__dirname, "client")));
+app.listen(3000, () => {
+  console.log("listening on port :3000");
+});
